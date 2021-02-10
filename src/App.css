@@ -24,3 +24,24 @@
 .button:active {
   background: #3a8ee6;
 }
+
+.out-progress {
+  width: 500px;
+  height: 20px;
+  margin-top: 40px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+}
+
+.in-progress {
+  height: 20px;
+  border-radius: 20px;
+  background-color: #49f;
+  transition: width .5s;
+}
+
+.progress-brief {
+  width: 500px;
+  margin-top: 10px;
+  text-align: center;
+}
